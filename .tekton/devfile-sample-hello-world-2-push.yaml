@@ -24,7 +24,7 @@ spec:
   - name: output-image
     value: quay.io/tnevrlka-test/test/devfile-sample-hello-world-2:{{revision}}
   - name: dockerfile
-    value: docker/Dockerfile
+    value: docker2/Dockerfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
